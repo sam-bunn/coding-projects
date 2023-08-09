@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins&display=swap" rel="stylesheet">
+<script src="script.js"></script>    
+    <title>Dashboard</title>
+</head>
+<body >
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary"class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">705</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Sale</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Who we are</a></li>
+                    <li><a class="dropdown-item" href="#">Where</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Support us!</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Featured</a>
+                </li>
+            </ul>
+            <div class="cart">
+                <div class="cart-button">
+                    <a href="#" class="cart-link">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                            </span>
+                        <span class="cart-count">3</span>
+                    </a>
+                </div>
+            </div>
+            <form class="d-flex" role="search" style="font-size: 1.5rem;">
+                <input class="form-control me-2"  type="search" placeholder="Search" aria-label="Search">
+                <button type="submit" style="border-radius: 10px;"><span class="material-symbols-outlined" style="font-size: 2rem;">
+                    search
+                    </span></button>
+            </form>
+        </div>
+    </nav>
+    <div >
+            <div class="alert fixed-top" style="margin-top: 100px;" id="saleAlert">
+        <span class="closebtn" onclick="closeAlert()">&times;</span>
+        We're having a sale! Get 20% off on all items. Use code SALE20 at checkout.
+    </div>
+    </div>
+
+
+    <div >
+        <div class="headers">
+            
+                Mens Clothing
+            
+        </div>
+
+
+        <div class="container">
+
+
+            <div style="margin: auto; "   class="shirts shadow-lg p-3 mb-5 bg-body-tertiary rounded carouselcss">
+        <div class="styles" style="text-align: center;">
+            705 Shirt
+        </div>                
+            <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators" style="filter: invert(100%);">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/imgs/ryan-hoffman-6Nub980bI3I-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/imgs/ryan-hoffman-982Nb-awyVE-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/imgs/ryan-hoffman-A7f7XRKgUWc-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" style="filter: invert(100%);" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+            <section class="product-section">
+                <div class="product-info">
+                    <div class="product-details">
+                        <p>Price: $15.00</p>
+                    </div>
+                    </div>
+                    <div class="add-to-cart">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="    font-family: 'Audiowide', cursive;
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 1.4rem;">
+                            Select a size
+                            </button>
+                            <ul class="dropdown-menu" >
+                            <li><a class="dropdown-item" href="#">Small</a></li>
+                            <li><a class="dropdown-item" href="#">Medium</a></li>
+                            <li><a class="dropdown-item" href="#">Large</a></li>
+                            </ul>
+                        </div>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
+                </section>
+            </div>
+            <div class="reviews">
+                <div class="description">
+                    <div class="reviews-tab shadow-lg p-3 mb-5 bg-body-tertiary rounded carouselcss">
+                        <h2>Customer Reviews</h2>
+                        <div class="review">
+                            <div class="profile-pic">
+                                <img src="/imgs/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="review-content">
+                                <div class="stars">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                </div>
+                                <p>Great product! I love the quality and design.</p>
+                            </div>
+                            </div>
+                            <div class="review">
+                            <div class="profile-pic">
+                                <img src="/imgs/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="Profile Picture">
+                            </div>
+                            <div class="review-content">
+                                <div class="stars">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9734;</span>
+                                </div>
+                                <p>Love the simple design.</p>
+                            </div>
+                            </div>
+                            <!-- Add more reviews as needed -->
+                        </div>
+                        
+                </div>
+            </div>        
+        </div>
+
+    </div>
+
+
+</body>
+</html>

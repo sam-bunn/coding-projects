@@ -1,0 +1,182 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+p {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.navbar{
+    font-family: 'Audiowide', cursive;
+font-family: 'Poppins', sans-serif;
+font-size: 1.5rem;
+box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand{
+    font-size: 3rem;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Style the close button (x) */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.carousel{
+    max-width: 500px; /* Adjust the max-width to set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+    
+}
+
+.carousel-item img {
+    width: 100%; /* Ensure the image takes the full width of the carousel item */
+    height: auto; /* Maintain the aspect ratio and keep the entire image visible */
+}
+.headers{
+    font-size: 3rem;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+.carouselcss{
+    background: linear-gradient(490deg, #97c7d6, #f7f7f7);
+
+}
+body {
+    background:linear-gradient(45deg,#5cb8d4,#a7c1da, #abc6d3);}
+.styles {
+    font-size: 3rem;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    margin: auto;
+    background: linear-gradient(490deg, #97c7d6, #f7f7f7);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.shirts {
+}
+.reviews-tab {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background:linear-gradient(45deg, #97c7d6, #f7f7f7);
+    }
+    
+    .review {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .profile-pic img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .stars {
+        color: gold;
+    }
+    
+    .star {
+        display: inline-block;
+    }
+    
+    .review-content {
+        flex: 1;
+    }
+    .cart-button {
+position: relative;
+}
+
+.cart-link {
+text-decoration: none;
+color: #fff;
+display: flex;
+align-items: center;
+padding: 10PX;
+}
+
+
+
+.cart-count {
+background-color: #f44336;
+color: #fff;
+font-size: 14px;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: -5px;
+right: -5px;
+}
+.cart{
+    padding: 10px;
+}
+/* Your existing styles */
+
+/* Your existing styles */
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+
+  .add-to-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+
+  
+  .add-to-cart-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #f44336;
+  }
+  
